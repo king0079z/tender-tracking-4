@@ -1,0 +1,15 @@
+{
+  "name": "tender-tracking-app",
+  "resourceGroup": "tender-tracking-rg",
+  "serverfarms": {
+    "name": "tender-tracking-plan",
+    "sku": {
+      "name": "B1",
+      "tier": "Basic"
+    }
+  },
+  "configuration": {
+    "nodeVersion": "20.x",
+    "startupCommand": "npm run start"
+  }
+}
